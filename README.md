@@ -1,6 +1,6 @@
 # lets-goweb
 
-一起开始golang的web开发吧
+一起开始golang的web开发吧，笔者是 `java` 语言方向学习 `golang` 的，文中如有错误还请指出。
 
 ## 仓库目录
 
@@ -14,7 +14,7 @@
 
 ### web快速入门
 
-1. [启动一个web服务]()
+1. [启动一个web服务](/toc/quickstart/1.start-web-server.md)
 2. [详解http包]()
 3. [处理form表单]()
 4. [防止CSRF和XSS攻击]()
