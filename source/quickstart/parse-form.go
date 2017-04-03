@@ -25,7 +25,7 @@ func login(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
 	log.Println("request method is:", r.Method) //获取请求的方法
 	if r.Method == "GET" {
-		t, _ := template.ParseFiles("login.html")
+		t, _ := template.ParseFiles("public/html/login.html")
 		if err := t.Execute(w, nil); err != nil {
 			log.Fatal("login error", err)
 		}
